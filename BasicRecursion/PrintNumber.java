@@ -1,6 +1,4 @@
-/**
- * PrintNumber
- */
+
 public class PrintNumber {
 
     public static void main(String[] args) {
@@ -12,13 +10,18 @@ public class PrintNumber {
             return;
         }
         // 1 to N
-        getNum(n-1);
-        System.out.print(n);
-
-
-
+        // getNum(n-1);
+        // System.out.print(n); 
+        
+        
         // N to 1
         // System.out.print(n);
         // getNum(n-1);
+        
+        //  n to 1 to n
+        System.out.print(n); 
+        getNum(n-1);
+        System.out.print(n); 
+
     }
 }

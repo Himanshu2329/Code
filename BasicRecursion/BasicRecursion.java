@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-               package BasicRecursion;
-=======
-// package BasicRecursion;
->>>>>>> 7b94128 (Done)
 
 public class BasicRecursion {
     public static void main(String[] args) { 

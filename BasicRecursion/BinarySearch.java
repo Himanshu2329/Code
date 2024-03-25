@@ -6,7 +6,7 @@ public class BinarySearch {
          System.out.println(search(arr, 55, 0, arr.length-1));
     }
     static int search(int []arr,int target, int s, int e){
-        if(s>e){
+        if(s>e){ 
             return -1;   
         } 
         int m=s+(e-s)/2;
